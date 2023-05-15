@@ -17,9 +17,7 @@
 }
 body,
 html {
-    background: rgb(157, 196, 98);
-    background: linear-gradient(90deg, rgba(157, 196, 98, 1) 0%, rgba(115, 157, 52, 1) 35%, rgba(79, 117, 20, 1) 100%);
-
+    background: #434e34be;
     height: 100vh;
     width: 100vw;
 }
@@ -42,13 +40,16 @@ section#login {
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.448);
+    box-shadow: 0px 0px 10px #00000072;
+    transition: width .4s, height .4s;
+    transition-timing-function: ease;
 
 }
 
 section#login>div#imagem {
     display: block;
-    background: #4F7514 url(../img/fundo-green.jpg) no-repeat;
+    background: #4F7514 url(../img/matogreen.jpg
+    ) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: left, center;
@@ -58,8 +59,12 @@ section#login>div#imagem {
 section#login>div#formul {
     display: block;
     padding: 10px;
+    font-size: .8em;
     
 }
 section#login>div#formul>h1{
     padding-bottom: 10px;
+    font-size: 1.3em;
+    color:#2f4e00ca;
+    
 }
