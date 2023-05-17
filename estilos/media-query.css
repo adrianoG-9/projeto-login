@@ -41,12 +41,12 @@ telas grandes acima de 1200(px)*/
         background-image: linear-gradient(to top,#5b6e36, #38442f);
     }
     section#login >div#imagem{
-        float:left;
+        float:right;
         width:50%;
         height: 100%;
     }
     section#login >div#formul{
-        float:right;
+        float:left;
         width:45%;
         padding-top: 50px;
         font-size: 1em;
